@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media only screen and (max-width: 768px){
+            .order_1{order:2}
+            .order_2{order:1}
+            .order_3{order:3}
+        }
+    </style>
+</head>
+<body>
+    <p class=" flex justify-center bg-black text-white h-10 items-center">Orders totalling $150 or more qualify for free shipping.</p>
+    <div class="flex flex-wrap justify-between items-center mx-44 mt-10" >
+        <div class="flex flex-wrap justify-between w-[33%] order_1" style="">
+            <a href="#"><p class="">Shop All</p></a>
+            <a href="#"><p>Company</p></a>
+            <a href="#"><p>Blog</p></a>
+            <a href="#"><p>Contact Us</p></a>
+        </div>
+        
+        <img src="Images/637226e950fb8e1941c4236d_timex.svg" alt="timexImage" class="w-[9rem] h-[4rem] order_2">
+        
+        <div class="flex justify-end w-[33%] order_3">
+            <div>
+                <img src="Images/6368b02a2600661bbe3a99f0_cart-icon.svg" alt="cartIcon" class="w-[2rem] h-[2rem] absolute">
+                <p class="bg-yellow-800 rounded-xl w-5 text text-center relative left-5 bottom-3 text-white">0</p>
+            </div>
+            <img src="Images/6436793e1f47efc0d7f1eb27_search.svg" alt="searchIcon" class="w-[2rem] h-[2rem] ml-7">
+        </div>
+    </div>
+    <div class="flex justify-betweeen mt-10 ">
+        <div class="w-[50%] flex flex-col justify-center" style="background-image: url('Images/6437a772a15c9a755f467a7d_shape.png');">
+            <p class="text-[4rem] text-center">Discover our</p>
+            <p class="text-[4rem] text-center ">collection</p>
+            <p class="text-[1.3rem] text-center mt-2">Your one-stop shop for the latest and greatest in the world of watches.</p>
+            <div class="flex justify-center mt-5">
+                <p class="text-[2rem] flex items-center">Prefer For:</p>
+                <img src="Images/636df11718e574567b426b83_men.jpg" alt="men1" class="w-[7rem] h-[7rem] rounded-[5rem] ml-5">
+                <img src="Images/63733df1c2ac776924773f9e_women.jpg" alt="women1" class="w-[7rem] h-[7rem] rounded-[5rem] ml-5">
+            </div>
+        </div>
+        <div class="w-[50%]">
+            <img src="Images/6369fe04243b2400d4086658_hero-image.jpg" alt="heroImage" class="w-[58rem] h-[45rem]">
+        </div>
+    </div>
+    <div class="flex flex-wrap  justify-center gap-5 mx-[5rem]">
+        <span class="text-[1.5rem] mt-[1.5rem]">OUR MISSION:</span> <p class="text-[3rem]">At our </p>
+        <img src="Images/6368faf1b23462045d6382eb_about-watch.png" alt="aboutWatch" class="h-20 w-20"> 
+        <p class="text-[3rem]">company, we</p> <p class="text-[3rem]">believe that a </p><p class="text-[3rem]">great watch </p><p class="text-[3rem]">should be both stylish</p>
+        <img src="Images/636a4d99fb269249c43c3b1b_collection-image-01.jpg" alt="collectionImage1" class="w-[10rem] h-[4rem] rounded-[4rem] mt-2">
+        <p class="text-[3rem]">and functional.</p>
+    </div>
+        <hr class="mt-10 mx-[5rem]">
+    </div>
+    <div class="flex flex-wrap justify-between mx-[5rem] mt-[5rem]">
+        <div>
+            <p class="text-[2rem]">#bestseller</p>
+            <p class="text-[4rem]">The Featured products</p>  
+        </div>
+        <a href=""><button class="border border-black border-solid w-[10rem] h-[3rem] rounded-[10rem] mt-[3rem]">View All</button></a>
+    </div>
+    <div class="flex flex-wrap justify-around display_section mt-[5rem]">
+        <div class="mt-[10rem]">
+            <img src="Images/637366ef5603d22fcb11e99a_product-01.jpg" alt="product01" class="w-[40rem] h-[48rem]">
+            <a href=""><p class="text-[2rem]">Stirling Analog White Dial Watch</p></a>
+            <a href=""><p class="text-[1.2rem]">$ 98.00 USD</p></a>
+            <button class="border border-black border-solid w-[10rem] h-[3rem] rounded-[10rem] mt-[1rem]">Shop Now</button>
+        </div>
+        <div>
+            <img src="Images/643f6bfc973c03e2546f5fe7_product-05.jpg" alt="product05" class="w-[40rem] h-[48rem]">
+            <a href=""><p class="text-[2rem]">Black Stainless Steel Women Watch</p></a>
+            <a href=""><p class="text-[1.2rem]">$ 87.00 USD</p></a>
+            <button class="border border-black border-solid w-[10rem] h-[3rem] rounded-[10rem] mt-[1rem]">Shop Now</button>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-around display_section mt-[5rem]">
+        <div class="mt-[10rem]">
+            <img src="Images/643f6be7d3f6659e4460b2b5_product-06.jpg" alt="product06" class="w-[40rem] h-[48rem]">
+            <a href=""><p class="text-[2rem]">Classic Petite Cornwall Women Watch</p></a>
+            <a href=""><p class="text-[1.2rem]">$ 217.00 USD</p></a>
+            <button class="border border-black border-solid w-[10rem] h-[3rem] rounded-[10rem] mt-[1rem]">Shop Now</button>
+        </div>
+        <div>
+            <img src="Images/643f6be7d3f6659e4460b2b5_product-06.jpg" alt="product06b" class="w-[40rem] h-[48rem]">
+            <a href=""><p class="text-[2rem]">The Octagon With Leather Strap Watch</p></a>
+            <a href=""><p class="text-[1.2rem]">$ 188.00 USD $ 214.00 USD</p></a>
+            <button class="border border-black border-solid w-[10rem] h-[3rem] rounded-[10rem] mt-[1rem]">Shop Now</button>
+        </div>
+    </div>
+    <div class="">
+        <div class="mt-[10rem] flex flex-wrap justify-between mx-[5rem]">
+            <img src="Images/6369fd83215a5a6ad95273b7_shop-men.jpg" alt="shopMen1" class="w-[40rem] h-[40rem] ">
+            <div class="w-[50rem] h-[40rem] bg-amber-100 border border-[.2rem] border-solid border-black flex flex-col justify-center items-center">
+                <p class="text-[1.5rem]">Limited edition</p>
+                <p class="text-[4rem]">The timex</p>
+                <p class="text-[4rem]">collection</p>
+                <a href="#"><button class="border border-black border-solid w-[10rem] h-[3rem] rounded-[10rem] mt-[3rem] text-white bg-black">View Collection</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div>
+        <img src="Images/654876ab52f1824c813ec842_client-02-dark.svg" alt="client02d">
+        <img src="Images/636b4397cb95e205f303a135_client-03.svg" alt="client03">
+        <img src="Images/636b43a0e50150d6c8921c49_client-04.svg" alt="client04">
+        <img src="Images/636b43a910cbdd3e4b88c9e6_client-05.svg" alt="client05">
+        <img src="Images/636b43b451929675f73f4888_client-06.svg" alt="client06">
+        <img src="Images/636b43bb39479e21a3429f77_client-07.svg" alt="client07">
+    </div>
+    <div>
+        <p>#welovewbs</p>
+        <p>The timex company</p>
+        <div>
+            <img src="Images/636a4d99fb269249c43c3b1b_collection-image-01.jpg" alt="collectionImage01">
+            <img src="Images/636a4ddf40d40d4d068206a6_collection-image-02.jpg" alt="collectionImage02a">
+        </div>
+        <div>
+            <div>
+                <div>
+                    <p>We grabbed the ima</p>
+                    <img src="Images/636a31f2715eea3c684a7dab_hand.png" alt="hand">
+                </div>
+                <p>traditional shape watch &</p>
+                <p>create something truly</p>
+                <div>
+                    <p>We grabbed the ima</p>
+                    <img src="Images/636a4ddf40d40d4d068206a6_collection-image-02.jpg" alt="collectionImage02a">
+                </div>
+                <a href="#"><button>View Collection</button></a>
+            </div>
+            <img src="Images/636a358cca0b10353fe99bc8_collection-image-03.jpg" alt="collectionImage03">
+        </div>
+    </div>
+    <div>
+        <p>A zero-waste design</p>
+        <p>Eco vegan friendly</p>
+        <p>The timeless design</p>
+        <p>Recycled stainless steel</p>
+        <p>1 Year worry-free
+        </p>
+    </div>
+    <div>
+        <p>The timex times</p>
+        <div>
+            <div>
+                <img src="Images/63733afb50723c26956460f5_blog-01.jpg" alt="blog01">
+                <p> May 2, 2023 / Judy Nguyen</p>
+                <p>Luxury watch brands you need to know</p>
+                <p>about in 2023</p>
+            </div>
+            <div>
+                <img src="Images/636f76ef2c89f77f8795f200_blog-02.jpg" alt="blog02">
+                <p> May 2, 2023 / Billy Vasquezn</p>
+                <p>5 classic watches that will never go out of</p>
+                <p>style</p>
+            </div>
+            <div>
+                <img src="Images/636a2f86215a5a501b56b2af_blog-image-03.jpg" alt="blogImage03">
+                <p> May 2, 2023 / Carolyn Ortiz</p>
+                <p>Behind the scenes: the art and</p>
+                <p>craftmanship of watchmaking</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div>
+                <img src="Images/6368bb19260066a9ec3b4ba9_instagram-light.svg" alt="instagramLight">
+                <p>webflow</p>
+                <p>#welovetimex</p>
+            </div>
+            <img src="Images/636a1e237be30f0f57fff203_instagram-watch-01.jpg" alt="instagramWatch01">
+            <img src="Images/636a1e34215a5a123054c0da_instagram-watch-02.jpg" alt="instagramWatch02">
+            <img src="Images/636a1e40f75558477cd4040d_instagram-watch-03.jpg" alt="instagramWatch03">
+            <img src="Images/636a1e4bca0b10618ae833ff_instagram-watch-04.jpg" alt="instagramWatch04">
+        </div>
+        <div>
+            <p>Join our squad</p>
+            <div>
+               <input type="text" placeholder="Enter your email"> 
+               <p>submit</p>
+            </div>
+        </div> -->
+        <div class="flex flex-wrap justify-around mt-[5rem]">
+            <div>
+                <img src="Images/637226e950fb8e1941c4236d_timex.svg" alt="timexImage" class="w-[15rem] h-[]">
+                <p class="mt-[2rem]">Design by <a href="" class="underline">Webestica</a>, Powered by</p>
+                <a href=""><p class="underline">Webflow</p></a>
+            </div>
+            <div>
+                <p class="text-[1.5rem] hover:text-orange-300">Home</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Home Two</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Company</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Contact Us</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Shop All</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Blog</p>
+                <p class="text-[1.5rem] hover:text-orange-300">FAQs</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Privacy Policy</p>
+            </div>
+            <div>
+                <p class=" text-[1.5rem] hover:text-orange-300">Style Guide</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Instructions</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Licenses</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Changelog</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Error 404</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Password Protected</p>
+                <p class="text-[1.5rem] hover:text-orange-300">Coming Soon</p>
+            </div>
+            <div>
+                <p class="text-[1.5rem] ">Wear it, feel it, share it</p>
+                <p class="text-[1.5rem] ">#welovetimex</p>
+                <div class="flex flex-wrap mt-[1rem]">
+                    <a href=""><img src="Images/6437748f160cb4d9f2707f3a_facebook.svg" alt="facebook01" class="w-[1.5rem] h-[1.5rem] "></a>
+                    <a href=""><img src="Images/6437748289f2ab819ac10fc0_instagram.svg" alt="instagram01" class="w-[1.5rem] h-[1.5rem] ml-[1rem]"></a>
+                    <a href=""><img src="Images/643774772b7c214487606df0_pinterest.svg" alt="pintrest01" class="w-[1.5rem] h-[1.5rem] ml-[1rem]"></a>
+                    <a href=""><img src="Images/6437746b3fbb47fa19e8fdcb_twitter.svg" alt="twitter01" class="w-[1.5rem] h-[1.5rem] ml-[1rem]"></a>
+                </div>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
